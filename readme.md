@@ -1,10 +1,20 @@
-# Botkit Starter Kit
+# TDR
 
-This is a Botkit starter kit for web, created with the [Yeoman generator](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
+#### El meu TDR tracta sobre com crear un chatbot per proporcionar informació sobre el batxillerat dual a la gent que ho necessiti.
 
-To complete the configuration of this bot, make sure to update the included `.env` file with your platform tokens and credentials.
+#### El chatbot ha sigut creat mitjançant un framework anomenat BOTKIT, i l'he programat amb un editor de codi anomenat: Visual Studio Code. El chatbot ha estat programat amb diferents llenguatges de programació : 
+- Javascript
+- HTML
+- CSS
 
-[Botkit Docs](https://botkit.ai/docs/v4)
 
-This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
-Edit the samples, and add your own in the [features/](features/) folder.
+
+## Intruccions d'instal·lació:
+
+```
+
+```
+
+```
+
+```
