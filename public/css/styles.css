@@ -6,9 +6,9 @@
 body,
 html {
   margin: 0;
-  padding: 0;
+  padding-top: 40px;
   font-size: 18px;
-  background-color: #FFF;
+  background-image:url('https://wallpaperstock.net/smile%2c-blue-wallpapers_54328_1920x1080.jpg');
   font-family: "helvetica", sans-serif;
 }
 
@@ -24,7 +24,7 @@ html {
 }
 
 .box {
-  border: 2px solid #FFF;
+  border: 2px solid rgb(255, 255, 255);
   padding: 1rem calc(1rem - 2px);
   margin-bottom: 1rem;
 }
@@ -68,7 +68,7 @@ div.input label {
 
 .addon {
   display: flex;
-  border: 1px solid #999;
+  border: 1px solid #333;
   border-radius: 6px;
   padding: 5px;
   background: #FFF;
@@ -82,7 +82,7 @@ div.input label {
 .addon button {
   flex-grow: 0;
   background: transparent;
-  border: 1px solid #999;
+  border: 1px solid #333;
   border-radius: 6px;
   font-weight: bold;
 }
@@ -122,16 +122,16 @@ a.button:hover {
 /* chat client */
 #message_window {
   background: #FFFFFF;
-  border-left: 1px solid #CCC;
-  border-right: 1px solid #CCC;
+  border: 2px solid #CCC;
   /*height: 500px;
   width: 320px;*/
-  height: 100%;
+  height: 90%;
   width: 100%;
   /*margin: 2rem auto;*/
   display: flex;
   flex-direction: column;
   font-family: "helvetica", sans-serif;
+  border-radius: 15px;
 }
 #message_window .disconnected {
   background: #FFFFCC;
@@ -179,6 +179,7 @@ a.button:hover {
   clear: both;
 }
 #message_window footer {
+  border-bottom: 1px #444;
   border-top: 1px solid #CCC;
   padding: 0.25rem;
 }
@@ -207,7 +208,7 @@ a.button:hover {
 #message_window .message {
   font-size: 20px;
   padding: 0.5rem;
-  background: #7a7373;
+  background: #888;
   color: rgb(255, 255, 255);
   border-radius: 5px;
   width: auto;
@@ -215,7 +216,7 @@ a.button:hover {
   max-width: 75%;
 }
 #message_window .file_attachment {
-  background: #F0F0F0;
+  background: #ffffff;
   color: #333;
   border-radius: 5px;
   display: inline-block;
