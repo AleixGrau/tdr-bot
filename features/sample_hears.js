@@ -89,7 +89,8 @@ module.exports = function(controller) {
     });
 
     //Quant temps he de dedicar setmanalment al batxillerat dual?
-    controller.hears(async (message) => message.text && message.text.toLowerCase().includes('temps'),
+    controller.hears(async (message) => message.text && (message.text.toLowerCase().includes('temps') || 
+        message.text.toLowerCase().includes('hores')) && message.text.toLowerCase().includes('dedicar'),
         ['message'], async (bot, message) => {
         await bot.reply(message, 'Cada alumne haurà de dedicar les hores que ell consideri necessàries per tal de poder portar al dia les tasques que se li encomanen.');
     });
@@ -118,8 +119,7 @@ module.exports = function(controller) {
 
     //Per defecte
     controller.hears(async (message) => message.text, ['message'], async (bot, message) => {
-        await bot.reply(message, {text: 'No entenc el teu missatge', typingDelay: 5000});
-        await bot.reply(message, 'Pots formular la pregunta d\'una altre manera?');
+        await bot.reply(message, {text: 'No entenc el teu missatge'});
     });
 
 }
