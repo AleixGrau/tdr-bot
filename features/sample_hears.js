@@ -118,7 +118,8 @@ module.exports = function(controller) {
 
     //Per defecte
     controller.hears(async (message) => message.text, ['message'], async (bot, message) => {
-        await bot.reply(message, {text: 'No entenc el missatge.', typingDelay: 5000});
+        await bot.reply(message, {text: 'No entenc el teu missatge', typingDelay: 5000});
+        await bot.reply(message, 'Pots formular la pregunta d\'una altre manera?');
     });
 
 }
